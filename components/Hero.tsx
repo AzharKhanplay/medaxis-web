@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { CrmAuthLinks } from "./CrmAuthLinks";
 import { ArrowRight, PlayCircle } from "lucide-react";
 
 const dashboardImage = "/hero-dashboard.jpg";
@@ -43,6 +44,7 @@ export function Hero() {
                 </Link>
               </Button>
             </div>
+            <CrmAuthLinks className="pt-2" />
           </div>
           
           <div className="relative">

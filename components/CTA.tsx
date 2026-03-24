@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { CrmAuthLinks } from "./CrmAuthLinks";
 import { ArrowRight, Mail, CheckCircle } from "lucide-react";
 
 export function CTA() {
@@ -48,7 +49,9 @@ export function CTA() {
                 </Link>
               </Button>
             </div>
-            
+
+            <CrmAuthLinks variant="onDark" className="text-center pt-2" />
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />

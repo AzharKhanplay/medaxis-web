@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin, Activity } from "lucide-react";
+import { crmLoginHref, crmSignupHref, isAbsoluteHttpUrl } from "@/lib/crm";
 
 export function Footer() {
   return (
@@ -43,6 +44,38 @@ export function Footer() {
                 <Link href="/contact" className="hover:text-primary transition-colors">
                   Request demo
                 </Link>
+              </li>
+              <li>
+                {isAbsoluteHttpUrl(crmLoginHref()) ? (
+                  <a
+                    href={crmLoginHref()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Sign in to CRM
+                  </a>
+                ) : (
+                  <Link href={crmLoginHref()} className="hover:text-primary transition-colors">
+                    Sign in to CRM
+                  </Link>
+                )}
+              </li>
+              <li>
+                {isAbsoluteHttpUrl(crmSignupHref()) ? (
+                  <a
+                    href={crmSignupHref()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Sign up
+                  </a>
+                ) : (
+                  <Link href={crmSignupHref()} className="hover:text-primary transition-colors">
+                    Sign up
+                  </Link>
+                )}
               </li>
             </ul>
           </div>
