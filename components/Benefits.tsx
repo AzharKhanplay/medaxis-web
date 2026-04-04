@@ -39,7 +39,7 @@ export function Benefits() {
           <div className="inline-block px-5 py-2.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
             Benefits
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Why Healthcare Providers Choose MedAxis</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Why Healthcare Providers Choose Sehat Pro</h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
             Real, measurable results that make a difference in your daily operations
           </p>

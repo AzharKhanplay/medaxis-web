@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy — MedAxis",
-  description: "How MedAxis uses cookies on the marketing website and how you can control preferences.",
+  title: "Cookie Policy — Sehat Pro",
+  description: "How Sehat Pro uses cookies on the marketing website and how you can control preferences.",
 };
 
 export default function CookiesRoutePage() {

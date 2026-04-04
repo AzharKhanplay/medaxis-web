@@ -35,7 +35,7 @@ export function Trust() {
             Built for Trust, Designed for Healthcare
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            We understand that patient data is sensitive and critical. MedAxis is built with security 
+            We understand that patient data is sensitive and critical. Sehat Pro is built with security 
             and reliability at its core, ensuring your hospital's operations run smoothly 24/7.
           </p>
         </div>
@@ -65,7 +65,7 @@ export function Trust() {
           </div>
           
           <p className="text-xl text-foreground italic mb-8 leading-relaxed">
-            "MedAxis has completely transformed how we manage patient records and operations at our hospital. 
+            "Sehat Pro has completely transformed how we manage patient records and operations at our hospital. 
             The system is incredibly reliable, secure, and has significantly improved our operational efficiency. 
             Our staff adapted quickly, and patients are receiving better care as a result."
           </p>

@@ -4,9 +4,9 @@ import { PageHero } from "@/components/PageHero";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "About MedAxis — Healthcare CRM for Afghanistan",
+  title: "About Sehat Pro — Healthcare CRM for Afghanistan",
   description:
-    "Learn about MedAxis: our mission to modernize hospital operations in Afghanistan with secure, scalable healthcare CRM software and hands-on implementation support.",
+    "Learn about Sehat Pro: our mission to modernize hospital operations in Afghanistan with secure, scalable healthcare CRM software and hands-on implementation support.",
 };
 
 const pillars = [
@@ -18,12 +18,12 @@ const pillars = [
   {
     icon: Heart,
     title: "Patient-centered design",
-    body: "Workflows in MedAxis are modeled around real patient journeys—from intake and triage to follow-up—so technology supports care instead of slowing it down.",
+    body: "Workflows in Sehat Pro are modeled around real patient journeys—from intake and triage to follow-up—so technology supports care instead of slowing it down.",
   },
   {
     icon: Users,
     title: "Local context",
-    body: "Built with Afghanistan’s healthcare environment in mind, MedAxis focuses on reliability, training, and support so teams can trust the system day to day.",
+    body: "Built with Afghanistan’s healthcare environment in mind, Sehat Pro focuses on reliability, training, and support so teams can trust the system day to day.",
   },
 ];
 
@@ -33,14 +33,14 @@ export default function AboutRoutePage() {
       <PageHero
         eyebrow="Company"
         title="Modern infrastructure for healthcare institutions"
-        subtitle="MedAxis combines enterprise-grade software with implementation discipline—so hospitals can improve throughput, documentation, and decision-making without losing focus on patients."
+        subtitle="Sehat Pro combines enterprise-grade software with implementation discipline—so hospitals can improve throughput, documentation, and decision-making without losing focus on patients."
       />
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-7xl">
           <div className="max-w-3xl mb-16">
-            <h2 className="text-3xl font-bold mb-6">Why we built MedAxis</h2>
+            <h2 className="text-3xl font-bold mb-6">Why we built Sehat Pro</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Large providers juggle thousands of encounters, fragmented records, and constant coordination across departments. Off-the-shelf tools rarely fit hospital complexity; generic CRMs are not built for clinical compliance. MedAxis exists to bridge that gap with a platform tuned for healthcare operations and the teams who run them.
+              Large providers juggle thousands of encounters, fragmented records, and constant coordination across departments. Off-the-shelf tools rarely fit hospital complexity; generic CRMs are not built for clinical compliance. Sehat Pro exists to bridge that gap with a platform tuned for healthcare operations and the teams who run them.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-10">

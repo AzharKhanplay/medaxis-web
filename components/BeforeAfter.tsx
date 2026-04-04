@@ -22,7 +22,7 @@ export function BeforeAfter() {
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">From Traditional to Modern</h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            See how MedAxis transforms outdated hospital workflows into streamlined operations
+            See how Sehat Pro transforms outdated hospital workflows into streamlined operations
           </p>
         </div>
 
@@ -48,13 +48,13 @@ export function BeforeAfter() {
             </div>
           </div>
 
-          {/* MedAxis Way */}
+          {/* Sehat Pro Way */}
           <div className="bg-gradient-to-br from-primary/5 to-secondary/5 p-10 rounded-2xl border-2 border-primary/30 shadow-lg">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-secondary rounded-xl flex items-center justify-center">
                 <Check className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">With MedAxis</h3>
+              <h3 className="text-2xl font-bold text-foreground">With Sehat Pro</h3>
             </div>
             
             <div className="space-y-6">

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — MedAxis CRM",
+  title: "Privacy Policy — Sehat Pro CRM",
   description:
-    "MedAxis privacy policy: how we handle healthcare and organizational data, security practices, and your rights when using our hospital CRM platform.",
+    "Sehat Pro privacy policy: how we handle healthcare and organizational data, security practices, and your rights when using our hospital CRM platform.",
 };
 
 export default function PrivacyRoutePage() {
@@ -13,7 +13,7 @@ export default function PrivacyRoutePage() {
       <PageHero
         eyebrow="Legal"
         title="Privacy Policy"
-        subtitle="This page describes how MedAxis approaches data protection. It is a general notice for marketing visitors; your organization will receive contract-specific terms during onboarding."
+        subtitle="This page describes how Sehat Pro approaches data protection. It is a general notice for marketing visitors; your organization will receive contract-specific terms during onboarding."
       />
       <section className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-3xl">
@@ -27,7 +27,7 @@ export default function PrivacyRoutePage() {
             <div>
               <h2 className="text-xl font-semibold text-foreground mb-3">Healthcare data</h2>
               <p>
-                Patient-identifiable and clinical data processed through MedAxis is governed by your agreements with us and applicable regulations. We implement technical and organizational measures appropriate to healthcare workloads, including access controls and auditability, as described in product documentation and your order form.
+                Patient-identifiable and clinical data processed through Sehat Pro is governed by your agreements with us and applicable regulations. We implement technical and organizational measures appropriate to healthcare workloads, including access controls and auditability, as described in product documentation and your order form.
               </p>
             </div>
             <div>
@@ -40,8 +40,8 @@ export default function PrivacyRoutePage() {
               <h2 className="text-xl font-semibold text-foreground mb-3">Contact</h2>
               <p>
                 For privacy-related questions, contact us at{" "}
-                <a href="mailto:info@medaxis.af" className="text-primary hover:underline">
-                  info@medaxis.af
+                <a href="mailto:info@sehatpro.af" className="text-primary hover:underline">
+                  info@sehatpro.af
                 </a>
                 .
               </p>

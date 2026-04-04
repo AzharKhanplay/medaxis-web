@@ -23,7 +23,7 @@ export function CTA() {
             
             <p className="text-xl md:text-2xl text-white/95 leading-relaxed">
               Join healthcare providers across Afghanistan who are transforming their operations 
-              with MedAxis. Request a personalized demo and see the difference.
+              with Sehat Pro. Request a personalized demo and see the difference.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-5 justify-center pt-6">

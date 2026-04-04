@@ -6,7 +6,7 @@ export function HowItWorks() {
       icon: UserPlus,
       step: "Step 1",
       title: "Sign Up & Setup",
-      description: "Create your hospital account and customize MedAxis for your specific needs, departments, and workflows."
+      description: "Create your hospital account and customize Sehat Pro for your specific needs, departments, and workflows."
     },
     {
       icon: Settings,

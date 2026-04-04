@@ -7,7 +7,7 @@ import { CTA } from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Features — Patient Records, Scheduling & Analytics",
   description:
-    "Explore MedAxis healthcare CRM features: patient management, digital records, appointment scheduling, secure messaging, reporting, and compliance-ready security for hospitals.",
+    "Explore Sehat Pro healthcare CRM features: patient management, digital records, appointment scheduling, secure messaging, reporting, and compliance-ready security for hospitals.",
 };
 
 export default function FeaturesRoutePage() {

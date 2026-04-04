@@ -6,7 +6,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact — Request a Demo or Speak to Sales",
   description:
-    "Contact the MedAxis team for demos, pricing, and implementation questions. We support hospitals and clinic groups across Afghanistan.",
+    "Contact the Sehat Pro team for demos, pricing, and implementation questions. We support hospitals and clinic groups across Afghanistan.",
 };
 
 export default function ContactRoutePage() {
@@ -28,8 +28,8 @@ export default function ContactRoutePage() {
                     <Mail className="w-5 h-5 mt-1 text-primary shrink-0" />
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <a href="mailto:info@medaxis.af" className="hover:text-primary transition-colors">
-                        info@medaxis.af
+                      <a href="mailto:info@sehatpro.af" className="hover:text-primary transition-colors">
+                        info@sehatpro.af
                       </a>
                     </div>
                   </li>

@@ -8,7 +8,7 @@ import { CTA } from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Pricing — Plans for Clinics & Hospitals",
   description:
-    "MedAxis offers flexible healthcare CRM pricing for clinics and hospitals in Afghanistan. Request a tailored quote based on beds, users, and modules.",
+    "Sehat Pro offers flexible healthcare CRM pricing for clinics and hospitals in Afghanistan. Request a tailored quote based on beds, users, and modules.",
 };
 
 const tiers = [
@@ -94,7 +94,7 @@ export default function PricingRoutePage() {
             ))}
           </div>
           <p className="text-center text-sm text-muted-foreground mt-12 max-w-2xl mx-auto">
-            Need a pilot department or phased rollout? We regularly deploy MedAxis in stages so clinical teams can adopt at a sustainable pace.
+            Need a pilot department or phased rollout? We regularly deploy Sehat Pro in stages so clinical teams can adopt at a sustainable pace.
           </p>
         </div>
       </section>

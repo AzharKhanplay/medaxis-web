@@ -12,7 +12,7 @@ import { CTA } from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Hospital Management & Healthcare CRM for Afghanistan",
   description:
-    "MedAxis is an enterprise healthcare CRM and hospital management platform for large clinics and hospitals in Afghanistan—patient records, scheduling, analytics, and secure operations in one system.",
+    "Sehat Pro is an enterprise healthcare CRM and hospital management platform for large clinics and hospitals in Afghanistan—patient records, scheduling, analytics, and secure operations in one system.",
 };
 
 export default function HomePage() {

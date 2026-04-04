@@ -1,6 +1,6 @@
 /**
- * URLs for the MedAxis CRM web app (separate Next app under /frontend).
- * Set NEXT_PUBLIC_CRM_APP_URL in production, e.g. https://app.medaxis.af
+ * URLs for the Sehat Pro CRM web app (separate Next app under /frontend).
+ * Set NEXT_PUBLIC_CRM_APP_URL in production, e.g. https://app.sehatpro.af
  */
 export function getCrmAppBase(): string | null {
   const v = process.env.NEXT_PUBLIC_CRM_APP_URL?.trim().replace(/\/$/, "");

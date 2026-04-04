@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Phone, MapPin, Activity } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { crmLoginHref, crmSignupHref, isAbsoluteHttpUrl } from "@/lib/crm";
 
 export function Footer() {
@@ -8,13 +8,26 @@ export function Footer() {
       <div className="container mx-auto max-w-7xl">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center shadow-lg">
-                <Activity className="w-7 h-7 text-white" />
+            <Link href="/" className="flex items-center gap-2.5">
+              <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/80 shadow-lg shadow-primary/20">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
               </div>
               <div>
-                <div className="text-2xl font-semibold text-white">MedAxis</div>
-                <div className="text-xs text-gray-400">Healthcare CRM</div>
+                <div className="text-xl font-bold text-white">Sehat Pro</div>
+                <div className="text-xs text-gray-400 font-medium tracking-wide">Healthcare CRM</div>
               </div>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400">
@@ -89,7 +102,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:careers@medaxis.af" className="hover:text-primary transition-colors">
+                <a href="mailto:careers@sehatpro.af" className="hover:text-primary transition-colors">
                   Careers
                 </a>
               </li>
@@ -106,7 +119,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0 text-primary" />
-                <span>info@medaxis.af</span>
+                <span>info@sehatpro.af</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0 text-primary" />
@@ -122,7 +135,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 pt-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
-            <div className="text-gray-400">© 2026 MedAxis. All rights reserved.</div>
+            <div className="text-gray-400">© 2026 Sehat Pro. All rights reserved.</div>
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
               <Link href="/privacy" className="hover:text-primary transition-colors">
                 Privacy Policy

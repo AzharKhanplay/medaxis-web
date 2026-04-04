@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — MedAxis CRM",
+  title: "Terms of Service — Sehat Pro CRM",
   description:
-    "Terms of service for using MedAxis marketing materials and pilot discussions. Full commercial terms are provided in your order form or master agreement.",
+    "Terms of service for using Sehat Pro marketing materials and pilot discussions. Full commercial terms are provided in your order form or master agreement.",
 };
 
 export default function TermsRoutePage() {
@@ -27,7 +27,7 @@ export default function TermsRoutePage() {
             <div>
               <h2 className="text-xl font-semibold text-foreground mb-3">Intellectual property</h2>
               <p>
-                MedAxis name, branding, and site content are protected. You may not copy, modify, or redistribute marketing assets without written permission, except for reasonable sharing of public URLs.
+                Sehat Pro name, branding, and site content are protected. You may not copy, modify, or redistribute marketing assets without written permission, except for reasonable sharing of public URLs.
               </p>
             </div>
             <div>
@@ -39,7 +39,7 @@ export default function TermsRoutePage() {
             <div>
               <h2 className="text-xl font-semibold text-foreground mb-3">Governing law</h2>
               <p>
-                Disputes arising from these terms will be handled in accordance with the laws applicable to your executed agreement with MedAxis, or otherwise as agreed in writing.
+                Disputes arising from these terms will be handled in accordance with the laws applicable to your executed agreement with Sehat Pro, or otherwise as agreed in writing.
               </p>
             </div>
             <p className="text-sm text-muted-foreground/80">Last updated: March 2026</p>

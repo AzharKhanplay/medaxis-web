@@ -19,11 +19,11 @@ export function Solution() {
             </div>
             
             <h2 className="text-4xl font-bold">
-              Introducing MedAxis: Your Complete Healthcare CRM
+              Introducing Sehat Pro: Your Complete Healthcare CRM
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              MedAxis is a modern, cloud-based hospital management system designed specifically 
+              Sehat Pro is a modern, cloud-based hospital management system designed specifically 
               for healthcare providers in Afghanistan. We bring all your hospital operations 
               into one easy-to-use platform.
             </p>
